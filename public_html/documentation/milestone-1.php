@@ -9,15 +9,15 @@
 <h1>Purpose, Audience and Goal</h1>
 	<h2><strong>Purpose</strong></h2>
 		<div class="center">
-			<ul> This is a personal portfolio website. It is meant to showcase my work as a web developer.
-			</ul>
+			<p> This is a personal portfolio website. It is meant to showcase my work as a web developer.
+			</p>
 		</div>
 	<h2>Audience</h2>
 		<div class="center">
-			<ul>This site is designed with a professional audience in mind, and is targeted to individuals
+			<p>This site is designed with a professional audience in mind, and is targeted to individuals
 				within the web development and I.T. community nationwide. Target audience include:
 				startup founders, hiring managers, recruiters, and peers.
-			</ul>
+			</p>
 		</div>
 	<h2>Goal</h2>
 			<p>The primary goal of this site is for users of the site to initiate contact with me in regards
