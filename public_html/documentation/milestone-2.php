@@ -24,5 +24,15 @@
 		my professional email address, and additional links to my professional social media profiles:
 		LinkedIn, Twitter, GitHub,
 		(These will also be linked to in the footer site wide via icons.)</p>
+<h1>Wireframes</h1>
+	<p>These wireframes were created using https://mockflow.com/.</p>
+		<h2>Mobile Layout</h2>
+			<img src="wireframe-1.PNG" alt="Mobile Layout" id="wireframe-1"
+	  		class="center"/>
+			<img src="wireframe-2.PNG" alt="Mobile Layout" id="wireframe-2"
+	  		class="center"/>
+		<h2>Dextop Layout</h2>
+			<img src="wireframe-3.PNG" alt="Dextop Layout" id="wireframe-3"
+	  		class="center"/>
 </body>
 </html>
