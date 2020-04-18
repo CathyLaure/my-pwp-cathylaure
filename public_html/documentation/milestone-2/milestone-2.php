@@ -28,11 +28,11 @@
 	<p>These wireframes were created using https://mockflow.com/.</p>
 		<h2>Mobile Layout</h2>
 			<img src="wireframe-1.PNG" alt="Mobile Layout" id="wireframe-1"
-	  		class="center"/>
+				  class="center"/>
 			<img src="wireframe-2.PNG" alt="Mobile Layout" id="wireframe-2"
-	  		class="center"/>
+				  class="center"/>
 		<h2>Dextop Layout</h2>
 			<img src="wireframe-3.PNG" alt="Dextop Layout" id="wireframe-3"
-	  		class="center"/>
+				  class="center"/>
 </body>
 </html>

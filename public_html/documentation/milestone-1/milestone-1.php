@@ -27,7 +27,7 @@
 			</p>
 	<h1>Persona</h1>
 		<img src="AmyKao.PNG" alt="Picture of Cathy" id="AmyKoa"
-	 		 class="center"/>
+			  class="center"/>
 		<p><strong>Name</strong>: Amy Koa</p>
 		<p><strong>Age</strong>: 38</p>
 		<p><strong>Profession</strong>: Amy Kao, the co-founder and CMO of RxAll looking to hire a full-time Web Developer.
