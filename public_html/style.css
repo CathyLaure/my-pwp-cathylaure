@@ -41,3 +41,44 @@
 	padding: 20px;
 	text-align: center;
 }
+
+h1 {
+	text-align: center;
+	font-weight: bold;
+	color: #4c0cff;
+}
+
+.form-wrapper {
+	background-color: green;
+	color: #93f2ff;
+}
+
+.form-wrapper h2 {
+	margin-left: 30px;
+}
+
+#name, #email, #subject, #message {
+	display: block;
+	margin-left: 30px;
+	width: 220px;
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+/*style for contact form-wrapper*/
+.form-wrapper label {
+	margin-left: 30px;
+}
+
+button {
+	width: 4rem;
+	height: 2rem;
+	background-color: #21ff37;
+	margin-left: 30px;
+	border: none;
+}
+
+footer {
+	color: white;
+	background-color: black;
+	text-align: center;
+}

@@ -56,6 +56,9 @@
 		</nav>
 
 		<div>
+			<div>
+				<h1>Welcome</h1>
+			</div>
 			<div class="bg-image">
 				<img src="images/cathycodes01.JPG" alt="Cathy codes">
 			</div>
@@ -68,6 +71,100 @@
 
 
 		<div class="container mt-3 p-5">
+			<div>
+				<h1>About Me</h1>
+			</div>
+
+			<div class="container-fluid mt-3">
+				<div class="container" style="background-color: aliceblue">
+					<div class="row pt-5 pb-5">
+						<div class="col-md-3 center">
+							<img src="images/cathysmiles.jpg" alt="image" width="250" height="300">
+						</div>
+						<div class="col-md-9">
+							<p>
+								Traffic crawls
+								Cell phone calls
+								Talk radio screams at me
+								Through my tinted window I see
+								A little girl, rust red minivan
+								She's got chocolate on her face
+								Got little hands, and she waves at me
+								Ya, she smiles at me.
+								Well hello world
+								How you been
+								Good to see you, my old friend
+								Sometimes I feel, cold as steel
+								Broken like I'm never gonna heal
+								I see a light, little hope
+								In a little girl.
+							</p>
+						</div>
+					</div>
+				</div>
+
+
+				<div class="container mt-5" style="background-color: aliceblue">
+					<div class="row pt-5 pb-5">
+						<div class="col-md-9">
+							<p>
+								Traffic crawls
+								Cell phone calls
+								Talk radio screams at me
+								Through my tinted window I see
+								A little girl, rust red minivan
+								She's got chocolate on her face
+								Got little hands, and she waves at me
+								Ya, she smiles at me.
+								Well hello world
+								How you been
+								Good to see you, my old friend
+								Sometimes I feel, cold as steel
+								Broken like I'm never gonna heal
+								I see a light, little hope
+								In a little girl.
+							</p>
+						</div>
+						<div class="col-md-3 center">
+						<img src="images/cathycodes02.JPG" alt="image" width="250" height="300">
+					</div>
+					</div>
+				</div>
+
+
+				<div class="container mt-5" style="background-color: aliceblue">
+					<div class="row pt-5 pb-5">
+						<div class="col-md-3 center">
+							<img src="images/coding$goofing.JPG" alt="image" width="250" height="300">
+						</div>
+						<div class="col-md-9">
+							<p>
+								Traffic crawls
+								Cell phone calls
+								Talk radio screams at me
+								Through my tinted window I see
+								A little girl, rust red minivan
+								She's got chocolate on her face
+								Got little hands, and she waves at me
+								Ya, she smiles at me.
+								Well hello world
+								How you been
+								Good to see you, my old friend
+								Sometimes I feel, cold as steel
+								Broken like I'm never gonna heal
+								I see a light, little hope
+								In a little girl.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+		<div>
+			<div>
+				<h1>Portfolio</h1>
+			</div>
 			<div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
 				<ol class="carousel-indicators">
 					<li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
@@ -76,21 +173,21 @@
 				</ol>
 				<div class="carousel-inner">
 					<div class="carousel-item active mt-3">
-						<img src="images/cathysmiles.jpg" class="d-block w-100" alt="Smile" width="300" height="500">
+						<img src="images/cathysmiles.jpg" class="d-block w-100" alt="Smile" width="1200" height="500">
 						<div class="carousel-caption d-none d-md-block">
 							<h5>First slide label</h5>
 							<p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
 						</div>
 					</div>
 					<div class="carousel-item mt-3">
-						<img src="images/cathycodes02.JPG" class="d-block w-100" alt="CathyCodes" width="300" height="500">
+						<img src="images/cathycodes02.JPG" class="d-block w-100" alt="CathyCodes" width="1200" height="500">
 						<div class="carousel-caption d-none d-md-block">
 							<h5>Second slide label</h5>
 							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 						</div>
 					</div>
 					<div class="carousel-item mt-3">
-						<img src="images/coding$goofing.JPG" class="d-block w-100" alt="coding$goofing" width="300" height="500">
+						<img src="images/coding$goofing.JPG" class="d-block w-100" alt="coding$goofing" width="1200" height="500">
 						<div class="carousel-caption d-none d-md-block">
 							<h5>Third slide label</h5>
 							<p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
@@ -107,6 +204,43 @@
 				</a>
 			</div>
 		</div>
+
+		<div class="container">
+			<h1>Contact Me</h1>
+			<div class="form-wrapper">
+				<form>
+					<div>
+						<label for="name">Name</label>
+						<input type="text" name="name" id="name" />
+					</div>
+
+					<div>
+						<label for="emailEmail">Email</label>
+						<input type="email" name="email" id="email" />
+					</div>
+
+					<div>
+						<label for="subject">Subject</label>
+						<input type="text" name="subject" id="subject" />
+					</div>
+
+					<div>
+						<label for="message">Message</label>
+						<textarea name="message" id="message" cols="30" rows="10" maxlength="1000" placeholder="1000 characters max"></textarea>
+					</div>
+
+					<button type="reset">Reset</button>
+					<button type="submit">Send!</button>
+				</form>
+			</div>
+		</div>
+
+		<footer>
+			<div class="container-fluid p-4">
+				My contact links will be found here
+			</div>
+		</footer>
+
 	</body>
 
 </html>
