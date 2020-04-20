@@ -82,23 +82,12 @@
 							<img src="images/cathysmiles.jpg" alt="image" width="250" height="300">
 						</div>
 						<div class="col-md-9">
-							<p>
-								Traffic crawls
-								Cell phone calls
-								Talk radio screams at me
-								Through my tinted window I see
-								A little girl, rust red minivan
-								She's got chocolate on her face
-								Got little hands, and she waves at me
-								Ya, she smiles at me.
-								Well hello world
-								How you been
-								Good to see you, my old friend
-								Sometimes I feel, cold as steel
-								Broken like I'm never gonna heal
-								I see a light, little hope
-								In a little girl.
-							</p>
+							<h2>Fun Facts about me</h2>
+							<ul>
+								<li>I love singing and dancing (mostly while I am alone) :)</li>
+								<li>I speak 4 languages and 1 dialect</li>
+								<li>I don't know how to swim; I'm willing to learn</li>
+							</ul>
 						</div>
 					</div>
 				</div>
@@ -107,23 +96,12 @@
 				<div class="container mt-5" style="background-color: aliceblue">
 					<div class="row pt-5 pb-5">
 						<div class="col-md-9">
-							<p>
-								Traffic crawls
-								Cell phone calls
-								Talk radio screams at me
-								Through my tinted window I see
-								A little girl, rust red minivan
-								She's got chocolate on her face
-								Got little hands, and she waves at me
-								Ya, she smiles at me.
-								Well hello world
-								How you been
-								Good to see you, my old friend
-								Sometimes I feel, cold as steel
-								Broken like I'm never gonna heal
-								I see a light, little hope
-								In a little girl.
-							</p>
+							<h2>My Stengths and Weaknesses</h2>
+							<ul>
+								<li></li>
+								<li></li>
+								<li></li>
+							</ul>
 						</div>
 						<div class="col-md-3 center">
 						<img src="images/cathycodes02.JPG" alt="image" width="250" height="300">
@@ -138,23 +116,12 @@
 							<img src="images/coding$goofing.JPG" alt="image" width="250" height="300">
 						</div>
 						<div class="col-md-9">
-							<p>
-								Traffic crawls
-								Cell phone calls
-								Talk radio screams at me
-								Through my tinted window I see
-								A little girl, rust red minivan
-								She's got chocolate on her face
-								Got little hands, and she waves at me
-								Ya, she smiles at me.
-								Well hello world
-								How you been
-								Good to see you, my old friend
-								Sometimes I feel, cold as steel
-								Broken like I'm never gonna heal
-								I see a light, little hope
-								In a little girl.
-							</p>
+							<h2>Skills</h2>
+							<ul>
+								<li></li>
+								<li></li>
+								<li></li>
+							</ul>
 						</div>
 					</div>
 				</div>
