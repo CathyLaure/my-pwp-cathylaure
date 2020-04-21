@@ -14,6 +14,17 @@
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
 
+		<!-- jQuery Form, Additional Methods, Validate -->
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.min.js"></script>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/additional-methods.min.js"></script>
+
+		<!-- Your JavaScript Form Validator -->
+		<script src="js/form-validate.js"></script>
+
+		<!-- Google reCAPTCHA -->
+		<script src='https://www.google.com/recaptcha/api.js'></script>
+
 		<title>Cathy Tasama</title>
 	</head>
 
@@ -176,7 +187,7 @@
 		<div class="container p-8">
 			<h1>Contact Me</h1>
 			<div class="form-wrapper">
-				<form>
+				<form id="my-contact-form" action="..php/mailer.php" method="POST">
 					<div>
 						<label for="name">Name</label>
 						<input type="text" name="name" id="name" />
@@ -196,6 +207,9 @@
 						<label for="message">Message</label>
 						<textarea name="message" id="message" cols="30" rows="10" maxlength="1000" placeholder="1000 characters max"></textarea>
 					</div>
+
+					<!-- reCAPTCHA -->
+					<div class="g-recaptcha" data-sitekey="6LeFVOwUAAAAANkt7UOIgTM9CEaIW156v2sACJpX"></div>
 
 					<button type="reset">Reset</button>
 					<button type="submit">Send!</button>

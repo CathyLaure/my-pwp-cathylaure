@@ -16,8 +16,7 @@
 
 //mailgun API Key authorization
 
-$mailgunApiKey = "-- MAILGUN API KEY --";
-$mailgunDomain = " --MAILGUN DOMAIN NAME --";
+
 
 
 // your Google reCAPTCHA keys here
