@@ -41,16 +41,16 @@
 					<li class="nav-item">
 						<a class="nav-link" href="#">Contact Me</a>
 					</li>
-					<li class="nav-item dropdown">
-						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-							Dropdown link
-						</a>
-						<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-							<a class="dropdown-item" href="#">Action</a>
-							<a class="dropdown-item" href="#">Another action</a>
-							<a class="dropdown-item" href="#">Something else here</a>
-						</div>
-					</li>
+<!--					<li class="nav-item dropdown">-->
+<!--						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">-->
+<!--							Dropdown link-->
+<!--						</a>-->
+<!--						<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">-->
+<!--							<a class="dropdown-item" href="#">Action</a>-->
+<!--							<a class="dropdown-item" href="#">Another action</a>-->
+<!--							<a class="dropdown-item" href="#">Something else here</a>-->
+<!--						</div>-->
+<!--					</li>-->
 				</ul>
 			</div>
 		</nav>
@@ -104,8 +104,8 @@
 							</ul>
 						</div>
 						<div class="col-md-3 center">
-						<img src="images/cathycodes02.JPG" alt="image" width="250" height="300">
-					</div>
+							<img src="images/cathycodes02.JPG" alt="image" width="250" height="300">
+						</div>
 					</div>
 				</div>
 
@@ -126,9 +126,10 @@
 					</div>
 				</div>
 			</div>
+		</div>
 
 
-		<div>
+		<div class="container p-3">
 			<div>
 				<h1>Portfolio</h1>
 			</div>
@@ -142,21 +143,21 @@
 					<div class="carousel-item active mt-3">
 						<img src="images/cathysmiles.jpg" class="d-block w-100" alt="Smile" width="1200" height="500">
 						<div class="carousel-caption d-none d-md-block">
-							<h5>First slide label</h5>
+							<h5>Smile</h5>
 							<p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
 						</div>
 					</div>
 					<div class="carousel-item mt-3">
 						<img src="images/cathycodes02.JPG" class="d-block w-100" alt="CathyCodes" width="1200" height="500">
 						<div class="carousel-caption d-none d-md-block">
-							<h5>Second slide label</h5>
+							<h5>Code</h5>
 							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 						</div>
 					</div>
 					<div class="carousel-item mt-3">
 						<img src="images/coding$goofing.JPG" class="d-block w-100" alt="coding$goofing" width="1200" height="500">
 						<div class="carousel-caption d-none d-md-block">
-							<h5>Third slide label</h5>
+							<h5>Coding and Goofing</h5>
 							<p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
 						</div>
 					</div>
@@ -172,7 +173,7 @@
 			</div>
 		</div>
 
-		<div class="container">
+		<div class="container p-8">
 			<h1>Contact Me</h1>
 			<div class="form-wrapper">
 				<form>
@@ -203,7 +204,7 @@
 		</div>
 
 		<footer>
-			<div class="container-fluid p-4">
+			<div class="container-fluid p-8">
 				My contact links will be found here
 			</div>
 		</footer>
