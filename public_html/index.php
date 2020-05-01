@@ -75,8 +75,8 @@
 			</div>
 
 			<div class="bg-text">
-				<h1>I am Cathy Laure Tasama</h1>
-				<p>And I'm a Full Stack Web Developer</p>
+				<h1>Hi, I am Cathy Laure Tasama</h1>
+				<p> I'm a Full Stack Web Developer</p>
 			</div>
 		</div>
 
@@ -96,8 +96,9 @@
 							<h2>Fun Facts about me</h2>
 							<ul>
 								<li>I love singing and dancing (mostly while I am alone) :)</li>
-								<li>I speak 4 languages and 1 dialect</li>
-								<li>I don't know how to swim; I'm willing to learn</li>
+								<li>I speak 4 languages and 1 dialect.</li>
+								<li>I don't know how to swim; I'm willing to learn.</li>
+								<li>I enjoy being a problem solver.</li>
 							</ul>
 						</div>
 					</div>
@@ -129,9 +130,10 @@
 						<div class="col-md-9">
 							<h2>Skills</h2>
 							<ul>
-								<li></li>
-								<li></li>
-								<li></li>
+								<li><strong>Languages:</strong> PHP, JavaScript, HTML5, CSS.</li>
+								<li>Expirienced in the use of Bootstrap,REACT, jQuery, MySQL databases, Data Design (creating personas, use cases, ERD)</li>
+								<li>Remarkable analytical skill with strong sense to decipher complex data/information</li>
+								<li>Out-of-the-box thinker who is comfortable working in teams or independently.</li>
 							</ul>
 						</div>
 					</div>
@@ -187,7 +189,7 @@
 		<div class="container p-8">
 			<h1>Contact Me</h1>
 			<div class="form-wrapper">
-				<form id="my-contact-form" action="..php/mailer.php" method="POST">
+				<form id="my-contact-form" action="../php/mailer.php" method="POST">
 					<div>
 						<label for="name">Name</label>
 						<input type="text" name="name" id="name" />
@@ -209,11 +211,18 @@
 					</div>
 
 					<!-- reCAPTCHA -->
-					<div class="g-recaptcha" data-sitekey="6LeFVOwUAAAAANkt7UOIgTM9CEaIW156v2sACJpX"></div>
+					<div class="g-recaptcha" data-sitekey="6LdwbOwUAAAAAMhnYJv2mcXjBSp2lyxfG8u_rt2F"></div>
 
 					<button type="reset">Reset</button>
 					<button type="submit">Send!</button>
 				</form>
+
+				<!--empty area for form error/success output-->
+				<div class="row">
+					<div class="col-xs-12">
+						<div id="output-area"></div>
+					</div>
+				</div>
 			</div>
 		</div>
 
