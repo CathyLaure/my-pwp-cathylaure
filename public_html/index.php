@@ -9,6 +9,7 @@
 		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
 		<link rel="stylesheet" href="style.css">
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
@@ -28,12 +29,12 @@
 		<title>Cathy Tasama</title>
 	</head>
 
-	<body>
+	<body style="background-color: midnightblue">
 
 <!--		Navigation bar code -->
 		<nav class="navbar navbar-expand-lg navbar-light bg-primary">
 			<a class="navbar-brand" href="#">
-				<img src="/docs/4.4/assets/brand/bootstrap-solid.svg" width="30" height="30" alt="">
+				<img src="images/logo.JPG" width="30" height="30" alt="logo">
 			</a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
@@ -41,16 +42,17 @@
 			<div class="collapse navbar-collapse" id="navbarNavDropdown">
 				<ul class="navbar-nav">
 					<li class="nav-item active">
-						<a class="nav-link" href="#">Welcome <span class="sr-only">(current)</span></a>
+<!--					<li><a href="#intro">Introduction</a></li>-->
+						<a class="nav-link" href="#intro">Welcome <span class="sr-only">(current)</span></a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#">About Me</a>
+						<a class="nav-link" href="#about-me">About Me</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#">Portfolio</a>
+						<a class="nav-link" href="#porfolio">Portfolio</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#">Contact Me</a>
+						<a class="nav-link" href="#contact-me">Contact Me</a>
 					</li>
 <!--					<li class="nav-item dropdown">-->
 <!--						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">-->
@@ -68,7 +70,7 @@
 
 		<div>
 			<div>
-				<h1>Welcome</h1>
+				<h1 id="intro">Welcome</h1>
 			</div>
 			<div class="bg-image">
 				<img src="images/cathycodes01.JPG" alt="Cathy codes">
@@ -83,7 +85,7 @@
 
 		<div class="container mt-3 p-5">
 			<div>
-				<h1>About Me</h1>
+				<h1 id="about-me">About Me</h1>
 			</div>
 
 			<div class="container-fluid mt-3">
@@ -115,7 +117,7 @@
 								<li></li>
 							</ul>
 						</div>
-						<div class="col-md-3 center">
+						<div class="col-md-3 right">
 							<img src="images/cathycodes02.JPG" alt="image" width="250" height="300">
 						</div>
 					</div>
@@ -130,8 +132,9 @@
 						<div class="col-md-9">
 							<h2>Skills</h2>
 							<ul>
-								<li><strong>Languages:</strong> PHP, JavaScript, HTML5, CSS.</li>
+								<li><strong>Languages:</strong> PHP, JavaScript, HTML5, CSS, React.js.</li>
 								<li>Expirienced in the use of Bootstrap,REACT, jQuery, MySQL databases, Data Design (creating personas, use cases, ERD)</li>
+								<li>Ability to work on Object Oriented PHP</li>
 								<li>Remarkable analytical skill with strong sense to decipher complex data/information</li>
 								<li>Out-of-the-box thinker who is comfortable working in teams or independently.</li>
 							</ul>
@@ -144,7 +147,7 @@
 
 		<div class="container p-3">
 			<div>
-				<h1>Portfolio</h1>
+				<h1 id="porfolio">Portfolio</h1>
 			</div>
 			<div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
 				<ol class="carousel-indicators">
@@ -186,8 +189,37 @@
 			</div>
 		</div>
 
+
+		<div class="container pt-5 pb-5">
+			<div class="row">
+				<div class="col-md-6 p-5 center">
+					<img class="img" src="images/logo.JPG" alt="image">
+
+					<div class="mt-3 p-3 text-box">
+						<p>
+							Life is beautiful when you wear a smile.
+						</p>
+					</div>
+				</div>
+
+				<div class="col-md-6 p-5 center">
+					<img class="img" src="" alt="image">
+
+					<div class="mt-3 p-3 text-box">
+						<p>
+							Life is beautiful when you wear a smile.
+						</p>
+					</div>
+				</div>
+
+
+			</div>
+
+		</div>
+
+
 		<div class="container p-8">
-			<h1>Contact Me</h1>
+			<h1 id="contact-me">Contact Me</h1>
 			<div class="form-wrapper">
 				<form id="my-contact-form" action="../php/mailer.php" method="POST">
 					<div>
@@ -228,7 +260,12 @@
 
 		<footer>
 			<div class="container-fluid p-8">
-				My contact links will be found here
+				<!-- Add font awesome icons -->
+					<a href="https://www.linkedin.com/in/cathy-laure-tasama/" class="fa fa-linkedin"></a>
+					<a href="https://github.com/CathyLaure" class="fa fa-gitHub"></a>
+					<a href="https://twitter.com/CathyLaureM1/" class="fa fa-twitter"></a>
+					<a href="https://www.instagram.com/cathycodes/" class="fa fa-instagram"></a>
+					<a href="#" class="fa fa-facebook"></a>
 			</div>
 		</footer>
 
