@@ -10,11 +10,11 @@
 
 .bg-image {
 	/* The image used */
-	background-image: url("images/cathycodes01.JPG");
+	background-image: url("images/devsworkspace.JPG");
 
 	/* Add the blur effect */
-	filter: blur(8px);
-	-webkit-filter: blur(8px);
+	filter: blur(4px);
+	-webkit-filter: blur(4px);
 
 	/* Full height */
 	height: 100%;
@@ -24,16 +24,25 @@
 	background-repeat: no-repeat;
 	background-size: cover;
 }
+.bg-img {
+	background-image: url("images/homeoffice.JPG");
+	filter: blur(4px);
+	-webkit-filter: blur(4px);
+	height: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
 
 /* Position text in the middle of the page/image */
 .bg-text {
 	background-color: rgba(163, 225, 222, 0.55); /* Fallback color */
 	background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
-	color: #4c0cff;
+	color: #7dffe9;
 	font-weight: bold;
 	border: 3px solid #f1f1f1;
 	position: absolute;
-	top: 50%;
+	top: 80%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	z-index: 2;
@@ -42,15 +51,21 @@
 	text-align: center;
 }
 
+.contact {
+	position: absolute;
+}
+
 h1 {
 	text-align: center;
 	font-weight: bold;
-	color: #4c0cff;
+	color: #3cff36;
 }
 
 .form-wrapper {
 	background-color: #93f2ff;
+	/*background: url("images/homeoffice.JPG") center no-repeat;*/
 	color: #210c8d;
+	text-align: center;
 }
 
 .form-wrapper h2 {
@@ -59,10 +74,14 @@ h1 {
 
 #name, #email, #subject, #message {
 	display: block;
-	margin-left: 30px;
+	margin-left: 40%;
 	width: 220px;
 	margin-bottom: 5px;
 	margin-top: 5px;
+}
+
+.g-recaptcha {
+	margin-left: 40%;
 }
 /*style for contact form-wrapper*/
 .form-wrapper label {
@@ -98,16 +117,16 @@ footer {
 /* setting specific color for each brand */
 /* Facebook */
 .fa-facebook {
-	background: #3B5998;
+	/*background: #3B5998;*/
 	color: white;
 }
 /* Twitter */
 .fa-twitter {
-	background: #55ACEE;
+	/*background: #55ACEE;*/
 	color: white;
 }
 .fa-linkedin {
-	background: #007bb5;
+	/*background: #007bb5;*/
 	color: white;
 }
 
@@ -120,7 +139,12 @@ footer {
 }
 
 .img {
+	margin-left: 5px;
 	width: 300px;
 	height: 300px;
 	border-radius: 300px;
+	alignment: center;
+}
+.center {
+	align-content: center;
 }
