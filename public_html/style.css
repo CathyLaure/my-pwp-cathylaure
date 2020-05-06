@@ -51,10 +51,6 @@
 	text-align: center;
 }
 
-.contact {
-	position: absolute;
-}
-
 h1 {
 	text-align: center;
 	font-weight: bold;
@@ -65,34 +61,38 @@ h1 {
 	background-color: #93f2ff;
 	/*background: url("images/homeoffice.JPG") center no-repeat;*/
 	color: #210c8d;
-	text-align: center;
+	margin-left: 30px;
 }
 
 .form-wrapper h2 {
-	margin-left: 30px;
+	margin-left: 30%;
 }
 
 #name, #email, #subject, #message {
 	display: block;
-	margin-left: 40%;
+	margin-left: 30%;
 	width: 220px;
 	margin-bottom: 5px;
 	margin-top: 5px;
 }
 
 .g-recaptcha {
-	margin-left: 40%;
+	margin-left: 30%;
 }
 /*style for contact form-wrapper*/
 .form-wrapper label {
-	margin-left: 30px;
+	margin-left: 30%;
+}
+
+.buttons {
+	margin-left: 30%;
 }
 
 button {
 	width: 4rem;
 	height: 2rem;
 	background-color: #21ff37;
-	margin-left: 30px;
+	margin: 30%;
 	border: none;
 }
 

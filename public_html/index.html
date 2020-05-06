@@ -72,19 +72,19 @@
 			</div>
 		</div>
 
-
+<!--		About me section-->
 		<div class="container mt-3 p-5">
 			<div>
 				<h1 id="about-me">About Me</h1>
 			</div>
 
 			<div class="container-fluid mt-3">
-				<div class="container" style="background-color: aliceblue">
+				<div class="container-fluid" style="background-color: aliceblue">
 					<div class="row pt-5 pb-5">
-						<div class="col-md-3 center">
+						<div class="col-md-5 center">
 							<img src="images/cathysmiles.jpg" alt="image" width="250" height="300">
 						</div>
-						<div class="col-md-9">
+						<div class="col-md-7">
 							<h2>Who is Cathy?</h2>
 							<p>
 								A dynamic, smart, solution oriented lady. I have always considered myself a problem solver,
@@ -96,9 +96,9 @@
 				</div>
 
 
-				<div class="container mt-5" style="background-color: aliceblue">
+				<div class="container-fluid mt-5" style="background-color: aliceblue">
 					<div class="row pt-5 pb-5">
-						<div class="col-md-9">
+						<div class="col-md-7">
 							<h2>Fun Facts about me</h2>
 							<ul>
 								<li>I love singing and dancing (mostly while I am alone) :)</li>
@@ -107,7 +107,7 @@
 								<li>I enjoy being a problem solver.</li>
 							</ul>
 						</div>
-						<div class="col-md-3">
+						<div class="col-md-5">
 							<img src="images/cathycodes02.JPG" alt="image" width="250" height="300">
 						</div>
 					</div>
@@ -116,10 +116,10 @@
 
 				<div class="container mt-5" style="background-color: aliceblue">
 					<div class="row pt-5 pb-5">
-						<div class="col-md-3 center">
+						<div class="col-md-5 center">
 							<img src="images/coding$goofing.JPG" alt="image" width="250" height="300">
 						</div>
-						<div class="col-md-9">
+						<div class="col-md-7">
 							<h2>Skills</h2>
 							<ul>
 								<li><strong>Languages:</strong> PHP, JavaScript, HTML5, CSS, React.js.</li>
@@ -186,7 +186,7 @@
 				<h1 id="contact-me">Contact Me</h1>
 				<div class="form-wrapper">
 
-					<form id="my-contact-form" action="../php/mailer.php" method="POST">
+					<form id="my-contact-form" action="../php/index.php" method="POST">
 						<div>
 							<label for="name">Name</label>
 							<input type="text" name="name" id="name" />
@@ -209,9 +209,10 @@
 
 						<!-- reCAPTCHA -->
 						<div class="g-recaptcha" data-sitekey="6LeFVOwUAAAAANkt7UOIgTM9CEaIW156v2sACJpX"></div>
-
-						<button type="reset">Reset</button>
-						<button type="submit">Send!</button>
+						<div class="buttons">
+							<button type="reset">Reset</button>
+							<button type="submit">Send!</button>
+						</div>
 					</form>
 
 					<!--empty area for form error/success output-->
