@@ -7,6 +7,10 @@
 * {
 	box-sizing: border-box;
 }
+.navbar {
+	background-color: #872642;
+	font-weight: bold;
+}
 
 .bg-image {
 	/* The image used */
@@ -18,11 +22,14 @@
 
 	/* Full height */
 	height: 100%;
+	width: 100%;
+	z-index: 0;
+
 
 	/* Center and scale the image nicely */
 	background-position: center;
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size: auto;
 }
 .bg-img {
 	background-image: url("images/homeoffice.JPG");
@@ -42,11 +49,11 @@
 	font-weight: bold;
 	border: 3px solid #f1f1f1;
 	position: absolute;
-	top: 80%;
+	top: 65%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	z-index: 2;
-	width: 80%;
+	/*z-index: 2;*/
+	width: auto;
 	padding: 20px;
 	text-align: center;
 }
@@ -54,11 +61,15 @@
 h1 {
 	text-align: center;
 	font-weight: bold;
-	color: #3cff36;
+	color: #F6C026;
+}
+
+.col-md-7 {
+	margin: auto;
 }
 
 .form-wrapper {
-	background-color: #93f2ff;
+	background-color: #A0D3F9;
 	/*background: url("images/homeoffice.JPG") center no-repeat;*/
 	color: #210c8d;
 	margin-left: 30px;
@@ -98,7 +109,7 @@ button {
 
 footer {
 	color: white;
-	background-color: black;
+	background-color: #872642;
 	text-align: center;
 }
 /*styling for footer icons */
