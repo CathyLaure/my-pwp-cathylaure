@@ -17,6 +17,6 @@ FROM gkephart/alpine-php-apache
 # copy vendor into the project from the prebuild stage
 COPY --from=vendor /app/vendor/ /app/public/vendor
 
-COPY Dockerfile /app/public
+COPY . /app/public
 
 EXPOSE 80
