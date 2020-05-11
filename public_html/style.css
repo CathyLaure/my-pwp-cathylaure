@@ -66,8 +66,8 @@ body {
 
 h1 {
 	text-align: center;
-	font-weight: bold;
-	color: #F6C026;
+	font-weight: bolder;
+	color: #ffcd3f;
 }
 
 .col-md-7 {
@@ -75,9 +75,9 @@ h1 {
 }
 
 .form-wrapper {
-	background-color: #A0D3F9;
+	background: url("images/contactme.JPG")center/cover no-repeat fixed;
 	/*background: url("images/homeoffice.JPG") center no-repeat;*/
-	color: #210c8d;
+	color: #1f2272;
 	margin-left: 30px;
 }
 
@@ -99,6 +99,7 @@ h1 {
 /*style for contact form-wrapper*/
 .form-wrapper label {
 	margin-left: 30%;
+	font-weight: bolder;
 }
 
 .buttons {
@@ -130,21 +131,18 @@ footer {
 /* hover effect */
 .fa:hover {
 	opacity: 0.7;
+	size: auto;
 }
 /* setting specific color for each brand */
-/* Facebook */
-.fa-facebook {
-	/*background: #3B5998;*/
-	color: white;
-}
+
 /* Twitter */
 .fa-twitter {
 	/*background: #55ACEE;*/
-	color: white;
+	color: #55ACEE;
 }
 .fa-linkedin {
 	/*background: #007bb5;*/
-	color: white;
+	color: #007bb5;
 }
 
 .text-box {
