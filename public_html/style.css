@@ -6,7 +6,7 @@ body {
 	box-sizing: border-box;
 }
 .navbar {
-	background-color: #872642;
+	background-color: #2c1fff;
 	font-weight: bold;
 }
 
@@ -16,7 +16,7 @@ body {
 
 
 .header-pic {
-	background: url("images/devsworkspace.JPG")center/cover no-repeat fixed;
+	background: url("images/devsworkspace.JPG")center/cover no-repeat;
 }
 .bg-image {
 	/* The image used */
@@ -75,10 +75,10 @@ h1 {
 }
 
 .form-wrapper {
-	background: url("images/contactme.JPG")center/cover no-repeat fixed;
+	background: url("images/contactme.JPG")center/cover no-repeat;
 	/*background: url("images/homeoffice.JPG") center no-repeat;*/
 	color: #1f2272;
-	margin-left: 30px;
+
 }
 
 .form-wrapper h2 {
